@@ -6,7 +6,7 @@ this repository.
 ## What this is
 
 A repository with no code. It exists to host the GitHub Discussions that
-[giscus](https://giscus.app) maps reader comments to for the *Fian Ilchruinne* sites (the work formerly titled *Star Rangers*; the repository slug and this organisation's name keep the old title on purpose). It is the shared pool: since 2026-09-04 every domain's build posts its general-tier pages here, fianilchruinne.com, sciencefiction.site, starquest.site, young.fianilchruinne.com and the contemplative editions alike, so community discussion stays in one place.
+[giscus](https://giscus.app) maps reader comments to for the *Fian Ilchruinne* sites (the work formerly titled *Star Rangers*; the repository slug and this organisation's name keep the old title on purpose). It is the shared pool: since 2026-09-04 every domain's build posts its general-tier pages here, fianilchruinne.com (the GitHub Pages build itself since 2026-10-06), sciencefiction.site, starquest.site, young.fianilchruinne.com and the contemplative editions alike, so community discussion stays in one place. The two editions whose entry in star-rangers' `lib/editions.js` sets `commentsEnabled: false`, undercover-pets.com (the children's edition, ruled 2026-09-04) and told.fianilchruinne.com, show no comment box and post nowhere. This file was written on 2026-09-29 alongside the sister board's copy and landed here on 2026-10-26; the README says the same since that day.
 
 Nothing here builds, tests or deploys. A pull request here changes `README.md`
 or this file, and the Discussions are administered in the repository's
@@ -51,4 +51,5 @@ direction).
   here.
 - **`Star-Rangers/churchspace-site-comments`** — the sister board, holding
   the threads of the church-space storyline thread on any domain that renders
-  it. Same shape, same rules, its own ids.
+  it; on GitHub it is a fork of this repository. Same shape, same rules, its
+  own ids.
