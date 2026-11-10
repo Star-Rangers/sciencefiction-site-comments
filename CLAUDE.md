@@ -32,6 +32,14 @@ Discussions tab, not in git.
   per-viewpoint scene pages map by a permanent `comment_id` in their front
   matter, which moves with the content when chapters are renumbered. Nothing
   in this repository decides which page a thread belongs to.
+- **The README's *Taking part* section (added 2026-11-10) restates what
+  star-rangers already says and rules nothing of its own.** Its moderation
+  sentence is the note under every page's *Discussion* heading
+  (`src/_includes/base.njk`, Dermot's ruling of 2026-09-04), and the rest
+  follows that ruling's account of giscus. If the note changes there, the
+  README follows. House rules or a code of conduct would be a policy
+  document, which the same ruling leaves to Dermot to write; don't add one
+  here.
 - **`scripts/fetch-giscus-ids.js` is an older copy of the star-rangers script
   of the same name and cannot run here**: it looks for `../src/_data/giscus.js`,
   which this repository does not have. The authoritative copy is
